@@ -1,6 +1,6 @@
 {
   "name": "@bmz_1/function-pipeline",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "No brainer function pipeline with middleware pattern",
   "main": "./dist/index.js",
   "scripts": {
