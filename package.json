@@ -1,7 +1,7 @@
 {
-  "name": "function-pipeline",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@bmz_1/function-pipeline",
+  "version": "0.1.1",
+  "description": "No brainer function pipeline with middleware pattern",
   "main": "./dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
@@ -9,8 +9,12 @@
     "dev": "ts-node src/index.ts",
     "test": "ts-mocha -p ./tsconfig.json src/test/*.test.ts"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "function",
+    "pipeline",
+    "middleware"
+  ],
+  "author": "BMZ",
   "license": "ISC",
   "devDependencies": {
     "@types/expect": "^24.3.0",
